@@ -12,21 +12,21 @@ import {
   
   const mockdata = [
     {
-      title: 'Extreme performance',
+      title: 'Høj kvalitet',
       description:
-        'This dust is actually a powerful poison that will even make a pro wrestler sick, Regice cloaks itself with frigid air of -328 degrees Fahrenheit',
+        'Vores stole er lavet af højeste kvalitet af polypropylen, som i høj grad kan genbruges.',
       icon: IconGauge,
     },
     {
-      title: 'Privacy focused',
+      title: 'De bedste tilbud',
       description:
-        'People say it can run at the same speed as lightning striking, Its icy body is so cold, it will not melt even if it is immersed in magma',
+        'Hos Nicechairs.dk sikrer vi dig altid de bedste tilbud på vores stole - vi skærer mellemmanden ud og sælger direkte til dig.',
       icon: IconUser,
     },
     {
-      title: 'No third parties',
+      title: 'Sikker betaling',
       description:
-        'They’re popular, but they’re rare. Trainers who show them off recklessly may be targeted by thieves',
+        'Vi bruger kun anderkendte og sikre betaling, som sikrer dig som forbruger.',
       icon: IconCookie,
     },
   ];
@@ -88,20 +88,19 @@ import {
       </Card>
     ));
     return (
-      <Container mt={100} size="lg" py="xl">
+      <Container mt={0} size="lg" py="xl">
         <Group position="center">
           <Badge variant="filled" size="lg">
-            Best company ever
+          Køb fremtidens stol i dag.
           </Badge>
         </Group>
   
         <Title order={2} className={classes.title} align="center" mt="sm">
-          Integrate effortlessly with any technology stack
+        NICECHAIRS er en designvirksomhed med fokus på kvalitet, komfort og miljø. 
         </Title>
   
         <Text color="dimmed" className={classes.description} align="center" mt="md">
-          Every once in a while, you’ll see a Golbat that’s missing some fangs. This happens when
-          hunger drives it to try biting a Steel-type Pokémon.
+        Vi sætter design i højsædet med forbrugeren i sigte og tager afsæt i at lave stole af PP (polypropylene), som i høj grad kan genanvendes.
         </Text>
   
         <SimpleGrid cols={3} spacing="xl" mt={50} breakpoints={[{ maxWidth: 'md', cols: 1 }]}>

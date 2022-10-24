@@ -1,10 +1,9 @@
 import { createStyles, Overlay, Container, Title, Button, Text } from '@mantine/core';
+import Spline from '@splinetool/react-spline';
 
 const useStyles = createStyles((theme) => ({
   hero: {
     position: 'relative',
-    backgroundImage:
-      'url(https://firebasestorage.googleapis.com/v0/b/nicechairs-728b7.appspot.com/o/homepage%2F304773238_503562715111310_7102583145767317150_n.jpeg?alt=media&token=d1d91feb-e9b1-4114-9c20-1909f446dfd0)',
     backgroundSize: 'cover',
     backgroundPosition: 'center',
   },
@@ -26,8 +25,8 @@ const useStyles = createStyles((theme) => ({
   },
 
   title: {
-    color: theme.white,
-    fontSize: 120,
+    color: theme.white  ,
+    fontSize: 130,
     fontWeight: 900,
     lineHeight: 1.1,
 
@@ -45,7 +44,7 @@ const useStyles = createStyles((theme) => ({
   description: {
     color: theme.white,
     maxWidth: 600,
-    fontSize: 50,
+    fontSize: 38,
     fontWeight: 300,
     lineHeight: 1.1,
 
@@ -70,12 +69,14 @@ export function HeroContentLeft() {
   return (
     <div className={classes.hero}>
       <Overlay
-        gradient="linear-gradient(180deg, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, .65) 40%)"
-        opacity={0.4}
+        opacity={1}
         zIndex={0}
-      />
+      >
+            <Spline scene="https://prod.spline.design/Dlu0mps7dvmrcXjl/scene.splinecode" />
+
+      </Overlay>
       <Container className={classes.container}>
-        <Title className={classes.title}>Nice Chairs</Title>
+        <Title className={classes.title}>NICECHAIRS</Title>
         <Text className={classes.description} size="xl" mt="xl">
         Havestole i høj kvalitet og tidløst design  
         </Text>

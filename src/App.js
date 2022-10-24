@@ -1,3 +1,4 @@
+import { DoubleHero } from "./components/DoubleHero";
 import { EmailBanner } from "./components/EmailBanner";
 import { FeaturesCards } from "./components/FeaturesCard";
 import { HeaderResponsive } from "./components/HeaderResponsive";
@@ -13,6 +14,7 @@ function App() {
       <div>
         <HeaderResponsive />
         <HeroContentLeft />
+        <DoubleHero />
         <FeaturesCards />
         <EmailBanner />
       </div>
