@@ -88,7 +88,7 @@ import {
       </Card>
     ));
     return (
-      <Container mt={0} size="lg" py="xl">
+      <Container mt={150} mb={100} size="lg" py="xl">
         <Group position="center">
           <Badge variant="filled" size="lg">
           Køb fremtidens stol i dag.
