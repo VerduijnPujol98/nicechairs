@@ -36,38 +36,38 @@ const Gridcard = () => {
             whileInView="onscreen"
             viewport={{ once: true, amount: 0.1 }}
             >
-            <SimpleGrid spacing={100} cols={3}>
+            <SimpleGrid spacing={70} cols={3}>
                 <motion.div variants={listItem}>
-                    <Card radius={20} p={30} sx={{width: 400}} shadow='md' withBorder>
-                        <IconRecycle size={50}/>
-                        <Text mt={20} fz={25} fw={600}>
+                    <Card radius={20} p={30} sx={{width: 300}} shadow='md' withBorder>
+                        <IconRecycle size={40}/>
+                        <Text mt={20} fz={20} fw={600}>
                             Genanvendelig
                         </Text>
-                        <Text mt={20} fw={300} fz={22}>
+                        <Text mt={20} fw={300} fz={18}>
                             Alle vores stole er miljøvenlige og genanvendelige
                         </Text>
                     </Card>
                 </motion.div>
 
                 <motion.div variants={listItem}>
-                    <Card radius={20} p={30} sx={{width: 400}} shadow='md' withBorder>
-                        <IconArmchair size={50}/>
-                        <Text mt={20} fz={25} fw={600}>
+                    <Card radius={20} p={30} sx={{width: 300}} shadow='md' withBorder>
+                        <IconArmchair size={40}/>
+                        <Text mt={20} fz={20} fw={600}>
                             Kvalitetsfremstillede
                         </Text>
-                        <Text mt={20} fw={300} fz={22}>
+                        <Text mt={20} fw={300} fz={18}>
                             Havestole i høj kvalitet og tidløst design
                         </Text>
                     </Card>
                 </motion.div>
 
                 <motion.div variants={listItem}>
-                    <Card radius={20} p={30} sx={{width: 400}} shadow='md' withBorder>
-                        <IconCurrencyKroneDanish size={50}/>
-                        <Text mt={20} fz={25} fw={600}>
+                    <Card radius={20} p={30} sx={{width: 300}} shadow='md' withBorder>
+                        <IconCurrencyKroneDanish size={40}/>
+                        <Text mt={20} fz={20} fw={600}>
                             De bedste tilbud
                         </Text>
-                        <Text mt={20} fw={300} fz={22}>
+                        <Text mt={20} fw={300} fz={18}>
                             Vi sikrer dig altid de bedste tilbud på vores stole
                         </Text>
                     </Card>

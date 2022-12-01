@@ -3,7 +3,7 @@ import React from 'react'
 import { motion } from "framer-motion";
 
 
-const About = () => {
+const Alpha = () => {
 
     const cardVariant = {
         offscreen:{
@@ -12,7 +12,7 @@ const About = () => {
         },
     
         onscreen:{
-            x: -250,
+            x: -450,
             opacity: 1,
             transition: {
                 type: "spring",
@@ -54,7 +54,7 @@ const About = () => {
                     whileInView="onscreen"
                     viewport={{ once: true, amount: 0.1 }}
                     >
-                        <Image radius={50}  width='50vw' alt="homepagepic" src="https://firebasestorage.googleapis.com/v0/b/nicechairs-728b7.appspot.com/o/homepage%2FNiceChairs%20stole046.jpg?alt=media&token=694d0b0f-23fd-40e7-bf64-a7b099279527"/>
+                        <Image radius={50}  width='70vw' alt="homepagepic" src="https://firebasestorage.googleapis.com/v0/b/nicechairs-728b7.appspot.com/o/homepage%2FGroup%2011.png?alt=media&token=b964644f-938d-4426-b2bd-1b90bc7164ee"/>
                     </motion.div>
                 </Box>
 
@@ -65,8 +65,8 @@ const About = () => {
                 whileInView='onscreen'
                 viewport={{ once: true, amount: 1 }}
                 >
-                    <Text fw={900} fz={80}>
-                        Hvem vi Er
+                    <Text fw={900} fz={80} color='#00C355'>
+                        I mange farver.
                     </Text>
 
                 </motion.div>
@@ -75,13 +75,16 @@ const About = () => {
                 variants={textVariant}
                 initial="offscreen"
                 whileInView='onscreen'
-                viewport={{ once: true, amount: 1 }}
+                viewport={{ once: true, amount: 0.5 }}
                 >
                     <Text mt={30} fw={300} fz={20}>
-                        NICECHAIRS er en designvirksomhed med fokus på kvalitet, 
-                        komfort og miljø. Vi sætter design i højsædet med forbrugeren 
-                        i sigte og tager afsæt i at lave stole af PP (polypropylene), som 
-                        i høj grad kan genanvendes. Køb fremtidens stol i dag.
+                    ALPHA of BETA er velegnede som havestole - køkkenbordsstole 
+                    eller til terrassen og pynter i ethvert hjem, skole, kontor, 
+                    kantine, klinik eller hospital. Stolene er UV-bestandige og er 
+                    ette at rengøre eller sterilisere da de er massive og forstærkede.
+                     De består af store flader og har ingen kringelkroge. Stolene kan ikke 
+                     ruste og er en meget kraftig plastik havestol.
+
                     </Text>
                 </motion.div>
                 </Box>
@@ -91,4 +94,4 @@ const About = () => {
   )
 }
 
-export default About
+export default Alpha

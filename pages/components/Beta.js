@@ -60,9 +60,9 @@ const textVariant = {
                     variants={textVariant}
                     initial="offscreen"
                     whileInView="onscreen"
-                    viewport={{ once: true, amount: 1 }}
+                    viewport={{ once: true, amount: 0.5 }}
                     >
-                        <Text mt={30} fw={300} fz={24}>
+                        <Text mt={30} fw={300} fz={20}>
                         Hvis du vil sikre dig perfekt siddekomfort, så fås den næppe bedre!
                         De egner sig til både inden- og udendørs brug. Stolene er fremstillet efter 
                         anatomiske og ergonomiske principper for perfekt siddekomfort. Havestolen er 
@@ -82,7 +82,7 @@ const textVariant = {
                     variants={cardVariant}
                     initial="offscreen"
                     whileInView="onscreen"
-                    viewport={{ once: true, amount: 0.8 }}
+                    viewport={{ once: true, amount: 0.5 }}
                     >
                         <Image radius={50} width='60vw' alt="homepagepic" src="https://firebasestorage.googleapis.com/v0/b/nicechairs-728b7.appspot.com/o/homepage%2FGroup%2010.png?alt=media&token=c883a1c7-021d-42bd-a3e4-64ec2b4de04f"/>
                     </motion.div>
