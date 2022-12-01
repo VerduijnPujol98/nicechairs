@@ -4,7 +4,6 @@ import styles from '../styles/Home.module.css'
 import About from './components/About'
 import Alpha from './components/Alpha'
 import Beta from './components/Beta'
-import { GetInTouchSimple } from './components/GetInTouchSimple'
 import Gridcard from './components/Gridcard'
 import HeroHeader from './components/HeroHeader'
 import Navbar from './components/Navbar'
@@ -23,7 +22,6 @@ export default function Home() {
       <Beta/>
       <Alpha/>
       <Shop/>
-      <GetInTouchSimple />
     </div>
   )
 }
