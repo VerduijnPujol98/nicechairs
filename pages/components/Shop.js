@@ -3,8 +3,8 @@ import { IconCircle, IconShoppingCart } from '@tabler/icons'
 import axios from 'axios'
 import React, { useState } from 'react'
 import getStripe from '../get-stripe'
-import { products} from "../../utils/data"
-import { products2} from "../../utils/data2"
+import { products} from "../utils/data"
+import { products2} from "../utils/data2"
 
 import { CartProvider, useCart } from "react-use-cart";
 

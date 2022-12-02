@@ -1,8 +1,7 @@
 import { TextInput, Textarea, SimpleGrid, Group, Title, Button, Container } from '@mantine/core';
 import { useForm } from '@mantine/form';
 
-
-const GetInTouchSimple = () => {
+export function GetInTouchSimple() {
   const form = useForm({
     initialValues: {
       name: '',
@@ -76,5 +75,3 @@ const GetInTouchSimple = () => {
     </Container>
   );
 }
-
-export default GetInTouchSimple
