@@ -1,14 +1,13 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import About from './components/About'
-import Alpha from './components/Alpha'
-import Beta from './components/Beta'
-import { GetInTouchSimple } from './components/GetInTouchSimple'
-import Gridcard from './components/Gridcard'
-import HeroHeader from './components/HeroHeader'
-import Navbar from './components/Navbar'
-import Shop from './components/Shop'
+import About from '../components/About'
+import Alpha from '../components/Alpha'
+import Beta from '../components/Beta'
+import Gridcard from '../components/Gridcard'
+import HeroHeader from '../components/HeroHeader'
+import Navbar from '../components/Navbar'
+import Shop from '../components/Shop'
 
 export default function Home() {
 
@@ -23,7 +22,6 @@ export default function Home() {
       <Beta/>
       <Alpha/>
       <Shop/>
-      <GetInTouchSimple />
     </div>
   )
 }
