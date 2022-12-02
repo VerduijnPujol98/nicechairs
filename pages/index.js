@@ -8,6 +8,7 @@ import Gridcard from '../components/Gridcard'
 import HeroHeader from '../components/HeroHeader'
 import Navbar from '../components/Navbar'
 import Shop from '../components/Shop'
+import { GetInTouchSimple } from '../components/GetInTouchSimple'
 
 export default function Home() {
 
@@ -22,6 +23,7 @@ export default function Home() {
       <Beta/>
       <Alpha/>
       <Shop/>
+      <GetInTouchSimple/>
     </div>
   )
 }
